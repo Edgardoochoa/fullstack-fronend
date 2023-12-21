@@ -23,7 +23,6 @@ const RoutesIndex = () => {
       <Route path='/create' element={<CreateMovie />} />
       <Route path='/Signup' element={<Signup />} />
       <Route path='/movies/:id' element={<MovieDetail />} />
-      <Route path='/movies/update/:id' element={<UpdateMovie />} />
     </Routes>
   )
 }
