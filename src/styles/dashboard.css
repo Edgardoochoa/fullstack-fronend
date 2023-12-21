@@ -1,0 +1,21 @@
+.card-container{
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card{
+  width: 18rem;
+}
+.card-img-top{
+  margin-bottom: 5px;
+  border-radius: 8px;
+  border: 2px solid blue;
+}
+.card-body{
+  border-radius: 8px;
+  border: 2px solid blue;
+  color: white;
+}
+
+
