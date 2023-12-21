@@ -3,7 +3,6 @@ import { Home, Login, Dashboard, Signup } from '../pages/index'
 import { useAuthContext } from '../hooks/useAuthContext'
 import MovieDetail from '../pages/MovieDetail'
 import CreateMovie from '../pages/CreateMovie'
-import UpdateMovie from '../pages/UpdateMovie'
 
 const RoutesIndex = () => {
   const { isAuth } = useAuthContext()
